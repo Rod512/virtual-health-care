@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h5{
+    font-size: 21px;
+    font-weight: 700;
+    color: black;
+}
+
+p{
+   font-size: 18px;
+   font-weight: 300;
+   color: #7d7987;
+   padding: 15px 0;
+    
+}
+
+.wrapper{
+    padding: 100px 0px;
+}
+
+.section-tile p{
+    width: 952px;
+    margin: 0 auto;
+}
+
+.button{
+    background-color: white;
+    text-decoration: none;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    padding: 10px 32px;
+    border-radius: 33px;
+    transition: 0.6s ease-in-out;
+    margin: 15px 0;
+}
+
+.button:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+.sm-shadow{
+    box-shadow: 0px 0px 75px -60px rgb(0,0,0);
+}
+
+/* dynamic navbar */
+.nav-active {
+    background-color: #458FF6;
+    transition: 0.8s ease-in-out;
+}
+
+.nav-active .navbar-nav .nav-link{
+    color: white;
+}
+
+.nav-active .navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: white;
+}
+
+.nav-active .navar-nav .active{
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-active .nav-toggler{
+    color: white;
+}
+
+/* banner section */
+.banner a{
+    background-color: #0d6efd;
+    text-decoration: none;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 33px;
+    transition: 0.6s ease-in-out;
+    margin: 15px 0;
+}
+
+.banner a:hover{
+    background-color: #0d6efdba;
+}
+
+/* services css */
+#service{
+    background: url('../pictures/bg.png') no-repeat;
+
+}
+
+.service{
+    width: 350px;
+    height: 341px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 75px -60px rgb(0,0,0);
+}
+
+.service img{
+    width: 91.98px;
+    height: 90px;
+}
+
+.service p{
+    font-size: 16px;
+}
+
+/* slider */
+
+#slider{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 24px;
+}
+
+#slider img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* slider end */
+
+/* artical start */
+#articals{
+    background: url('../pictures/articalbg.png') no-repeat;
+    background-position: right;
+}
+
+/* artical end */
+
+/* footer start */
+footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer-menu{
+    list-style: none;
+}
+
+.footer-menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+/* foter end */
